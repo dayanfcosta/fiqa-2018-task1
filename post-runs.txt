@@ -1,0 +1,25 @@
+LinearSVR: POSTS
+
+Run 1:
+	MSE: 0.1419968956768849
+	R^2 Score: 0.2073937348308953
+
+Run 2: Sem URL
+	MSE: 0.11324120743939742
+	R^2 Score: 0.3009111850170956
+
+Run 3: Sem URL e substituindo nome da companhia por "companyname"
+	MSE: 0.11903342635599845
+	R^2 Score: 0.28368445152337773
+
+Run 4: Sem URL e removendo o nome da companhia e 3-gram
+	MSE: 0.11463252128191583
+	R^2 Score: 0.2765870995548322
+
+Run 5: Sem URL e com 3-gram
+	MSE: 0.11485361609398981
+	R^2 Score: 0.34773045597254437
+
+Run 6: Sem URL com params de TF-IDF e Counter
+	MSE: 0.11680636899701755
+	R^2 Score: 0.2951012223528783
